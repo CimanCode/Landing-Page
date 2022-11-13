@@ -89,6 +89,7 @@ html, body, h1, h3, p, ul, li{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    height: 670px;
 }
 
 #home .container{
@@ -277,6 +278,7 @@ html, body, h1, h3, p, ul, li{
     background: #FD841F;
     width: 100%;
     overflow: hidden;
+    height: 670px;
 }
 
 #payday .container{
@@ -326,6 +328,7 @@ html, body, h1, h3, p, ul, li{
 #payday .container .payday-sale .h1-payday h1{
     position: relative;
     width: fit-content;
+    margin-bottom: 0px;
 }
 
 #payday .container .payday-sale p:nth-child(3){
@@ -348,6 +351,13 @@ html, body, h1, h3, p, ul, li{
     border-radius: 5px;
     margin-right: 200px;
     margin-top: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+#payday .container .button-sale:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
 /* sponsor */
@@ -385,6 +395,13 @@ html, body, h1, h3, p, ul, li{
     padding: 10px;
     border-radius: 5px;
     margin-right: 230px;
+    transition: 0.5s ease-in-out;
+}
+
+#sponsor .container .content-sponsor .view-all:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
 #sponsor .container .icon{
@@ -402,6 +419,13 @@ html, body, h1, h3, p, ul, li{
     justify-content: center;
     align-items: center;
     background-color: #EEF1FF;
+    transition: 0.5s ease-in-out;
+}
+
+#sponsor .container .icon-sponsor:hover{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-top: -20px;
 }
 #sponsor .container .icon-sponsor img{
     width: 100%;
@@ -443,6 +467,16 @@ html, body, h1, h3, p, ul, li{
     display: flex;
     flex-direction: column;
     margin-bottom: 150px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+#favorit-produk .container .icon-product .card:hover{
+    transform: scale(1.02);
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #favorit-produk .container .icon-product .card img{
@@ -552,6 +586,7 @@ html, body, h1, h3, p, ul, li{
     font-weight: bold;
     margin-bottom: 10px;
     color: #FFFFFF;
+    width: 100%;
 }
 
 #sign-up .container p{
